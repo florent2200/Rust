@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Shafarik&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Shafarik", system-ui;
+}
+form{
+    width: 600px;
+    
+    margin: 50px auto;
+    box-shadow: 0 0 10px black;
+    
+}
+body{
+    background-color: #222222;
+}
+.form_head{
+    background-color:aqua;
+    height: 50px;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+.form_head a{
+    text-decoration: none;
+    background-color: #ffffff;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.name{
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.form_body{
+    padding: 20px;
+    color: #ffffff;
+}
+fieldset{
+    padding: 30px;
+    color: #ffffff;
+    font-size: 20px;
+}
+p{
+    color: #ffffff;
+    padding-top: 20px;
+}
+.form_body div{
+    margin-top: 10px;
+}
+textarea{
+    resize: none;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    background: none;
+    color: #ffffff;
+    outline: none;
+    border: 2px solid white;
+}
+button{
+    padding: 10px 30px;
+    background-color: aqua;
+    color: #ffffff;
+    margin: auto;
+    display: block;
+}
